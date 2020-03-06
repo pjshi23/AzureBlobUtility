@@ -1,0 +1,9 @@
+- name: Scope for .NET
+  uses: undefinedlabs/scope-for-dotnet-action@1.0.0
+  with:
+    # Command to run inside the scope-run wrapper
+    command: # optional
+    # Scope DSN
+    dsn: 
+    # Run the scope-run command from the solutions file folder
+    use-solutions: # optional, default is true
